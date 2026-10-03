@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:clipChildren="false">
+
+        <View
+            android:id="@+id/ring1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:background="@drawable/bg_ring" />
+
+        <View
+            android:id="@+id/ring2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:background="@drawable/bg_ring" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_drop"
+            android:tint="@color/teal_glow" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/hero_text"
+        android:textSize="33.6sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/splash_small"
+        android:textSize="13sp" />
+
+    <FrameLayout
+        android:layout_width="120dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/bg_loader_track"
+        android:clipChildren="true">
+
+        <View
+            android:id="@+id/bar"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_loader_bar" />
+    </FrameLayout>
+</LinearLayout>

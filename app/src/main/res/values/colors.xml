@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#F3F8F9</color>
+    <color name="card">#FFFFFF</color>
+    <color name="ink">#0A1A20</color>
+    <color name="mut">#62808A</color>
+    <color name="line">#DBE8EA</color>
+    <color name="aqua">#0D9488</color>
+    <color name="pr">#B45309</color>
+    <color name="aqua_sel">#DDF0EE</color>
+    <color name="aqua_12">#1F0D9488</color>
+    <color name="aqua_14">#240D9488</color>
+    <color name="aqua_16">#290D9488</color>
+    <color name="amber">#FFB703</color>
+    <color name="white">#FFFFFF</color>
+    <color name="hero_a">#0B2A33</color>
+    <color name="hero_b">#0F6A70</color>
+    <color name="hero_text">#EAFAFA</color>
+    <color name="hero_sub">#A9D4D8</color>
+    <color name="teal_glow">#2AD4D0</color>
+    <color name="splash_a">#061014</color>
+    <color name="splash_b">#0B3A41</color>
+    <color name="splash_small">#8FC0C6</color>
+    <color name="cta_a">#FFB703</color>
+    <color name="cta_b">#FF8A00</color>
+    <color name="cta_text">#2A1800</color>
+    <color name="st_pending">#D97706</color>
+    <color name="st_confirmed">#0D9488</color>
+    <color name="st_done">#64748B</color>
+    <color name="st_cancelled">#DC2626</color>
+    <color name="danger">#EF4444</color>
+</resources>

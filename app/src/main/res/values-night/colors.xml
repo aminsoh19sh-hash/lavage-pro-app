@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#071014</color>
+    <color name="card">#0E1B21</color>
+    <color name="ink">#E8F6F7</color>
+    <color name="mut">#7F9CA4</color>
+    <color name="line">#1C3039</color>
+    <color name="aqua">#2AD4D0</color>
+    <color name="pr">#FFB703</color>
+    <color name="aqua_sel">#123539</color>
+    <color name="aqua_12">#1F2AD4D0</color>
+    <color name="aqua_14">#242AD4D0</color>
+    <color name="aqua_16">#292AD4D0</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لافاش برو</string>
+    <string name="salons" />
+    <string name="appointments" />
+    <string name="switch_language" />
+    <string name="menu_privacy" />
+    <string name="menu_logout" />
+</resources>
